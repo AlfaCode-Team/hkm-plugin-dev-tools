@@ -1,0 +1,15 @@
+{
+    "name": "alfacode-team/hkm-plugin-dev-tools",
+    "description": "HKM Kernel plugin providing 'dev.tooling'.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["hkm-kernel", "plugin", "php", "dev.tooling"],
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\DevTools\\": ""
+        }
+    }
+}
